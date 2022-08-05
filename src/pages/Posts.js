@@ -8,6 +8,8 @@ import PostList from "../components/Posts/PostList";
 
 const Container = styled.div`
   padding: 10px;
+  max-width: 1280px;
+  margin: 0 auto;
 `;
 const Ul = styled.ul`
   display: flex;
@@ -34,7 +36,7 @@ export default function Posts() {
   async function getPosts() {
     const data = await requestApi(POSTS);
     setPosts(data);
-    setLastPage(Math.ceil(data.length / AMOUNT));
+    setLastPage(Math.ceil(data.length / AMOUNT) + 1);
     setLoading(false);
   }
 

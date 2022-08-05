@@ -54,7 +54,7 @@ const Number = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: orange;
   border-radius: 100%;
   width: 20px;
   height: 20px;
