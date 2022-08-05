@@ -44,7 +44,7 @@
   <summary> 서버에 요청하는 횟수 줄이기 </summary>
   <ol>
     <li>처음 앱을 시작할 때 posts와 comments 데이터 받아오기</li>
-    <li>filter를 이용하여 post 컴포넌트와 detail 컴포넌트의 props로 데이터 보내기</li>
+    <li>filter를 이용하여 데이터 추출하기</li>
   </ol>
   <p>
     <strong>결론</strong><br />
