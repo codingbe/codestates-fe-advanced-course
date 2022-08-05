@@ -12,6 +12,14 @@ const GlobalStyle = createGlobalStyle`
             color: #452CDD;
         }
     }
+    body{
+        -ms-overflow-style: none;
+    }
+        
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
 `;
 
 export default GlobalStyle;
