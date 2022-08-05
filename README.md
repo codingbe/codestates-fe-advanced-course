@@ -45,7 +45,7 @@
     <li>filter를 이용하여 post 컴포넌트와 detail 컴포넌트의 props로 데이터 보내기</li>
   </ol>
   <p>
-    <strong>결론</strong>
+    <strong>결론</strong><br />
     위의 과정 전에는 사용자가 post를 클릭 할 때마다 서버로 요청을 보냈으나
     이 과정 후에는 서버에 요청하는 횟수가 2번으로 고정됨 (posts, comments)
   </p>
