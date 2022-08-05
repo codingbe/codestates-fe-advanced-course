@@ -24,6 +24,7 @@ export default function Posts() {
   const [lastPage, setLastPage] = useState(0);
   const [loading, setLoading] = useState(true);
   const [visible, setVisible] = useState(false);
+  const PAGINATETEST = 0; // 값 1당 페이지 넘버를 담는 배열에 페이지 넘버 1개가 추가된다. 값에 9가 할당되면 19페이지까지 보인다.
 
   async function getComments() {
     setComments(await requestApi(COMMENTS));
@@ -36,7 +37,7 @@ export default function Posts() {
   async function getPosts() {
     const data = await requestApi(POSTS);
     setPosts(data);
-    setLastPage(Math.ceil(data.length / AMOUNT) + 1);
+    setLastPage(Math.ceil(data.length / AMOUNT) + PAGINATETEST);
     setLoading(false);
   }
 

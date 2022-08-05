@@ -28,7 +28,13 @@ export function Pagination({ lastPage, setPage, page }) {
   const [lengthByPage, setLengthByPage] = useState([]);
 
   function setPageArr() {
-    for (let j = 0; j < 2; j++) {
+    if (lastPage > 10) {
+      for (let j = 0; j < 2; j++) {
+        for (let i = 1; i <= lastPage; i++) {
+          setLengthByPage((prev) => [...prev, i]);
+        }
+      }
+    } else {
       for (let i = 1; i <= lastPage; i++) {
         setLengthByPage((prev) => [...prev, i]);
       }
@@ -57,17 +63,7 @@ export function Pagination({ lastPage, setPage, page }) {
                 {num}
               </Page>
             ))
-          : lastPage > 10 && page < 5
-          ? lengthByPage.slice(0, 10).map((num, idx) => (
-              <Page
-                check={page === idx}
-                key={idx}
-                onClick={() => setPage(num - 1)}
-              >
-                {num}
-              </Page>
-            ))
-          : lengthByPage.map((num, idx) => (
+          : lengthByPage.slice(0, 10).map((num, idx) => (
               <Page
                 check={page === idx}
                 key={idx}
