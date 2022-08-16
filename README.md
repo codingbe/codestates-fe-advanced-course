@@ -59,14 +59,14 @@
 
 <details>
   <summary> Pagination </summary>
-  <a href="https://codingbe.github.io/2022/08/04/%EA%B5%AC%EA%B8%80%EC%9D%98-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%84%A4%EC%9D%B4%EC%85%98%EC%B2%98%EB%9F%BC-%EA%B5%AC%ED%98%84%ED%95%B4%EB%B3%B4%EA%B8%B0/" target="_blank">링크</a>
+  <a href="https://codingbe.tistory.com/8" target="_blank">링크</a>
 </details>
 
 ---
 
 <details>
   <summary> 게시물 상세페이지를 모달로 만들기 </summary>
-  <a href="https://codingbe.github.io/2022/08/05/%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%83%81%EC%84%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%AA%A8%EB%8B%AC%EB%8A%90%EB%82%8C-%EB%82%B4%EA%B8%B0/" target="_blank">링크</a>
+  <a href="https://codingbe.tistory.com/9" target="_blank">링크</a>
 </details>
 
 ---
